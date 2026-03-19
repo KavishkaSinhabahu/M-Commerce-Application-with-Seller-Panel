@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="CustomItemActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+    <!-- Rounded corners -->
+    <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.Full</item>
+
+    <!-- Custom color -->
+    <item name="android:color">@color/white</item>
+
+    <!-- Adjust size -->
+    <item name="android:height">45dp</item>
+    <item name="android:width">45dp</item>
+
+    <!-- Set horizontal margin -->
+    <item name="android:layout_marginHorizontal">4dp</item>
+</style>
+</resources>
